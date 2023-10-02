@@ -5,6 +5,10 @@
     --grey: #e2e8f0;
 }
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +21,18 @@ body {
 .nav {
     background-color: var(--blue);
     grid-row: 1 / 3;
+    color: var(--white);
+}
+
+.nav-item {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.nav-item#nav-title {
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .header {
