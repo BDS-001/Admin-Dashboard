@@ -25,9 +25,11 @@ body {
 }
 
 .nav-item {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    gap: 20px;
     align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 
 .nav-item#nav-title {
