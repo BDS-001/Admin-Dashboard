@@ -22,13 +22,14 @@ body {
     background-color: var(--blue);
     grid-row: 1 / 3;
     color: var(--white);
+    padding-left: 20px;
 }
 
 .nav-item {
     display: flex;
     gap: 20px;
     align-items: center;
-    justify-content: center;
+
     margin: 10px;
 }
 
