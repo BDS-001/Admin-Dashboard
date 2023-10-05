@@ -83,8 +83,8 @@ a {
     border-radius: 10px;
     background-color: var(--grey);
     height: 24px;
-    flex: 1;
-    max-width: 400px;
+    flex: 100;
+    max-width: 700px;
 }
 
 .content {
@@ -102,6 +102,7 @@ a {
     width: 100px;
     font-size: 15px;
     font-weight: bold;
+    border: 1px solid black;
 }
 
 .username-greeting>div:first-child {
@@ -116,3 +117,7 @@ a {
 .fill {
     flex: 1;
 }
+
+button:active {
+    transform: scale(90%);
+  }
