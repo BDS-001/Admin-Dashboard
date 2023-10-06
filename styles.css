@@ -84,13 +84,7 @@ a {
     background-color: var(--grey);
     height: 24px;
     flex: 100;
-    max-width: 700px;
-}
-
-.content {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-    background-color: var(--grey);
+    max-width: 600px;
 }
 
 .header button {
@@ -102,7 +96,6 @@ a {
     width: 100px;
     font-size: 15px;
     font-weight: bold;
-    border: 1px solid black;
 }
 
 .username-greeting>div:first-child {
@@ -121,3 +114,28 @@ a {
 button:active {
     transform: scale(90%);
   }
+
+  .content {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    background-color: var(--grey);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 20px 40% 20px 40%;
+    column-gap: 20px;
+}
+
+#projects {
+    grid-row: 2/5;
+    background-color: green;
+}
+
+#announcements-label {
+    grid-column: 2/3;
+}
+
+#trending-label {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
