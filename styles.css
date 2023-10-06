@@ -1,6 +1,6 @@
 :root {
     --blue: #1992d4;
-    --orange: #e2e8f0;
+    --orange: #f0b429;
     --white: white;
     --grey: #e2e8f0;
 }
@@ -155,4 +155,15 @@ button:active {
     height: 200px;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgb(168, 168, 168);
+    display: flex;
+    overflow: hidden;
+}
+
+.card-accent {
+    width: 10px;
+    background-color: var(--orange);
+}
+
+.card-content {
+    flex: 1;
 }
