@@ -6,7 +6,7 @@
 }
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -58,6 +58,7 @@ a {
     padding-right: 40px;
     display: grid;
     grid-template-rows: 1fr 2fr;
+    font-weight: bold;
 }
 
 .header>div {
@@ -85,6 +86,7 @@ a {
     height: 24px;
     flex: 100;
     max-width: 600px;
+    padding-left: 10px;
 }
 
 .header button {
@@ -95,15 +97,15 @@ a {
     height: 35px;
     width: 100px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: inherit;
 }
 
 .username-greeting>div:first-child {
     font-size: small;
+    font-weight:lighter;
 }
 
 .username-greeting>div:last-child {
-    font-weight: bold;
     font-size: 30px;
 }
 
