@@ -11,6 +11,7 @@
 
 * {
     font-family: Arial, sans-serif;
+    color: inherit;
 }
 
 body {
@@ -58,11 +59,11 @@ a {
 .header {
     background-color: var(--white);
     grid-column: 2 / 3;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 10px 40px 10px 40px;
     display: grid;
     grid-template-rows: 1fr 2fr;
     font-weight: bold;
+    color: black;
 }
 
 .header>div {
@@ -130,6 +131,7 @@ button:active {
     grid-template-columns: 1fr 270px;
     grid-template-rows: 20px 340px 57px 20px 340px 1fr;
     column-gap: 20px;
+    color: black;
 }
 
 .content > label {
