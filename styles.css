@@ -213,7 +213,7 @@ button:active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
 }
 
 .user {
@@ -228,4 +228,18 @@ button:active {
 
 .user-details {
     color: var(--content-font-color);
+}
+
+.announcement-title {
+    font-weight: bold;
+}
+
+.announcement {
+    color: var(--content-font-color);
+    font-size: smaller;
+}
+
+.announcement-divider {
+    height: 1px;
+    background-color: var(--content-font-color);
 }
