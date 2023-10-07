@@ -152,7 +152,7 @@ button:active {
 
 .project-card {
     background-color: var(--white);
-    height: 200px;
+    height: 220px;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgb(168, 168, 168);
     display: flex;
