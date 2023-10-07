@@ -25,7 +25,7 @@ body {
     padding-left: 10px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
     min-height: 500px;
 }
 
@@ -123,22 +123,23 @@ button:active {
     background-color: var(--grey);
     padding: 20px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 20px 300px 20px 300px 1fr;
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 20px 340px 57px 20px 340px 1fr;
     column-gap: 20px;
 }
 
 .content > label {
     font-weight: bold;
+    font-size: larger;
 }
 
 #projects {
-    grid-row: 2/6;
+    grid-row: 2/7;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, 350px);
     gap: 20px;
-    padding: 10px 10px 10px 0px;
+    padding-top: 10px;
 }
 
 #announcements-label {
@@ -147,7 +148,11 @@ button:active {
 
 #trending-label {
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 4/5;
+}
+
+#trending {
+    grid-row: 5/6;
 }
 
 .project-card {
@@ -193,4 +198,12 @@ button:active {
 .card-icons>i {
     font-size: 22px;
     align-items: end;
+}
+
+#announcements,
+#trending {
+    background-color: var(--white);
+    margin-top: 10px;
+    box-shadow: 4px 4px 10px rgb(168, 168, 168);
+    border-radius: 10px;
 }
