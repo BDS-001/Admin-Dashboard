@@ -28,19 +28,20 @@ body {
     grid-row: 1 / 3;
     color: var(--white);
     padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    min-height: 500px;
+    display: grid;
+    grid-template-rows: 55px 260px 150px 1fr;
+    gap: 30px;
+}
+
+.nav>div {
+    background-color: green;
+    border: 2px solid black;
+    display: grid;
 }
 
 a {
     color: inherit;
     text-decoration: none;
-}
-
-.nav>.links {
-    display: grid;
 }
 
 .nav-item {
